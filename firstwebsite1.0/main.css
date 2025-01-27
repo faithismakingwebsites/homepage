@@ -1,0 +1,30 @@
+body { 
+    background-color: palegoldenrod;
+}
+
+p {
+    color:olive;
+    background-color:antiquewhite;
+   font: size 30px; 
+   border: 1px solid darkred;
+   padding: 50px;
+   text-align: center;
+
+
+}
+
+h1 { color: firebrick;
+    font-size: 40px ;
+    font-family: cursive;
+    text-align: center;
+
+}
+
+h2{ color:darkred;
+    background-color:olive;
+   font: size 30px; 
+   border: 1px solid darkred;
+   padding: 50px;
+   text-align: center;
+
+}
