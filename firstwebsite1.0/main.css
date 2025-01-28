@@ -28,3 +28,11 @@ h2{ color:darkred;
    text-align: center;
 
 }
+ol { 
+    background-color: palegoldenrod ;
+    color: darkred ;
+    padding: 50px;
+    text-align: center;
+    border: 2px darkmagenta solid ;
+
+}
