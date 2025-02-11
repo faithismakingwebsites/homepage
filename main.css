@@ -12,7 +12,10 @@ p {
 
 
 }
-
+a:any-link {
+    color: -webkit-link;
+    cursor: auto;
+    }
 h1 { color: firebrick;
     font-size: 40px ;
     font-family: cursive;
