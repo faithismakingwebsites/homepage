@@ -10,6 +10,10 @@ body {
     background-color: #528756;
     color: #333;
     padding: 20px;
+<<<<<<< Updated upstream
+=======
+    
+>>>>>>> Stashed changes
 }
 
 header {
@@ -42,6 +46,10 @@ h1 {
 
 .menu-item:hover {
     transform: scale(1.1);
+<<<<<<< Updated upstream
+=======
+
+>>>>>>> Stashed changes
 }
 
 
@@ -71,4 +79,10 @@ h1 {
     font-size: 1.1rem;
     color: #555;
 }
+<<<<<<< Updated upstream
 
+=======
+.container {
+    text-align: center;
+}
+>>>>>>> Stashed changes
