@@ -1,0 +1,116 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  img {
+    max-width: 100px;
+  }
+  body {
+    background-color:lavenderblush
+}
+  .MUFF1-IMG {
+    position: relative;
+    top: 330px;
+    left: 530px;
+    max-width: 500px;
+    animation: spin 2s infinite linear ;
+  }
+  .Mufff1 {
+    position: relative;
+    top: 0%;
+    left: 20%;
+    animation: bounce 2s infinite linear alternate;
+  }
+  .Mufff2 {
+    position: relative;
+    max-width: 400px;
+    top: 100px;
+    left: 60px;
+    animation: spin 2s infinite linear;
+  }
+  .MUFF2-IMG {
+    position: relative;
+    top: 60px;
+    left: 90px;
+    animation: bounce 5s ease-in-out infinite;
+  }
+  
+  .MUFF3-IMG {
+    position: relative;
+    top: 200px;
+    left: 100px;
+    transform: translate(-50%, -50%);
+    animation: spin 3s infinite linear alternate;
+  }
+  
+  .MUFF4-IMG {
+    position: relative;
+    top: 500px;
+    left: 300px;
+    animation: bounce 4s ease-in-out infinite;
+  }
+  .MUFF7-IMG {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    animation: bounce 4s ease-in-out infinite;
+    max-width: 300px;
+  }
+  
+  
+  .MUFF5-IMG {
+    max-width: 250px;
+    position: absolute;
+    top: 70%x;
+    left: 80px;
+    animation: slide 5s linear infinite;
+  }
+  .MUFF8-IMG {
+    max-width: 200px;
+    position: absolute;
+    top: 10px;
+    left: 0px;
+    animation: slide 7s linear infinite;
+  }
+.MUFF6-IMG {
+    max-width: 400px;
+    position: absolute; 
+    top: 50%; 
+    left: 50%; 
+    transform: translate(-50%, -50%); 
+    animation: bounce 5s ease-in-out infinite;
+  }
+  
+  
+  /* Keyframes for spin */
+  @keyframes spin {
+    0% {
+      transform: rotate(0deg) scale(1);
+    }
+    100% {
+      transform: rotate(360deg) scale(1);
+    }
+  }
+  
+  /* Keyframes for bounce */
+  @keyframes bounce {
+    0% {
+      transform: translateY(0px) scale(1);
+    }
+    50% {
+      transform: translateY(-50px) scale(1.1);
+    }
+    100% {
+      transform: translateY(0px) scale(1);
+    }
+  }
+  
+  @keyframes slide {
+    0% {
+        left: -300px; 
+    }
+    100% {
+        left: 100vw; 
+    }
+  
+  

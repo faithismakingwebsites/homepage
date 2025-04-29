@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Horizontal Scroll with Spread Icons</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body, html {
+      height: 100%;
+      overflow-x: hidden; /* Prevent vertical scroll */
+    }
+
+    .scroll-container {
+      position: relative;
+      width: 100vw; /* Full viewport width */
+      height: 100vh; /* Full viewport height */
+      overflow-x: auto; /* Allow horizontal scrolling */
+      background-color: #f0f0f0;
+    }
+
+    .icon {
+      position: absolute; /* Absolute positioning to spread out the icons */
+      width: 50px;
+      height: 50px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background-color: #ddd;
+      border-radius: 50%;
+      cursor: pointer;
+      transition: transform 0.3s ease;
+    }
+
+    .icon:hover {
+      transform: scale(1.2);
+    }
+
+    .icon img {
+      width: 30px;
+      height: 30px;
+    }
+
+    /* Randomize icon positions with different values for top and left */
+    .icon-1 { top: 20%; left: 10%; }
+    .icon-2 { top: 30%; left: 40%; }
+    .icon-3 { top: 50%; left: 70%; }
+    .icon-4 { top: 70%; left: 15%; }
+    .icon-5 { top: 25%; left: 80%; }
+    .icon-6 { top: 60%; left: 25%; }
+    .icon-7 { top: 40%; left: 90%; }
+    .icon-8 { top: 80%; left: 50%; }
+    /* You can add more icons with different positions */
+  </style>
+</head>
+<body>
+  <div class="scroll-container">
+    <div class="icon icon-1" onclick="alert('Icon 1 clicked')">
+      <img src="https://via.placeholder.com/50" alt="Icon 1">
+    </div>
+    <div class="icon icon-2" onclick="alert('Icon 2 clicked')">
+      <img src="https://via.placeholder.com/50" alt="Icon 2">
+    </div>
+    <div class="icon icon-3" onclick="alert('Icon 3 clicked')">
+      <img src="https://via.placeholder.com/50" alt="Icon 3">
+    </div>
+    <div class="icon icon-4" onclick="alert('Icon 4 clicked')">
+      <img src="https://via.placeholder.com/50" alt="Icon 4">
+    </div>
+    <div class="icon icon-5" onclick="alert('Icon 5 clicked')">
+      <img src="https://via.placeholder.com/50" alt="Icon 5">
+    </div>
+    <div class="icon icon-6" onclick="alert('Icon 6 clicked')">
+      <img src="https://via.placeholder.com/50" alt="Icon 6">
+    </div>
+    <div class="icon icon-7" onclick="alert('Icon 7 clicked')">
+      <img src="https://via.placeholder.com/50" alt="Icon 7">
+    </div>
+    <div class="icon icon-8" onclick="alert('Icon 8 clicked')">
+      <img src="https://via.placeholder.com/50" alt="Icon 8">
+    </div>
+    <!-- Add more icons as needed, just assign a new class for different positions -->
+  </div>
+</body>
+</html>

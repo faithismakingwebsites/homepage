@@ -1,0 +1,32 @@
+body {
+    margin: 0;
+    background-color: darkolivegreen;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    overflow: hidden; 
+}
+
+.circle {
+    background-color: lavenderblush;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    animation: pulse 10s infinite alternate ease-in-out; 
+}
+
+@keyframes pulse {
+    0% {
+        background-color: beige;
+        transform: scale(1); 
+    }
+    50% {
+        background-color: greenyellow;
+        transform: scale(50); 
+    }
+    100% {
+        background-color: beige;
+        transform: scale(1); 
+}
+

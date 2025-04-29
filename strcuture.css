@@ -1,0 +1,48 @@
+
+/* Basic reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Full page flex container */
+body, html {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    overflow: hidden;
+}
+
+/* Center content of page */
+.flex-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* Column for dots */
+.dot-container {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+}
+
+/* Style for individual dots */
+.dot {
+    width: 30px;
+    height: 30px;
+    background-color: #e1ff21;
+    border-radius: 50%;
+    cursor: wait;
+    transition: background-color 0.3s ease;
+}
+
+.dot:hover {
+    background-color: #2980b9;
+}

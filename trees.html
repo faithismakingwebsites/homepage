@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        /* Set the body to fill the entire viewport */
+        body, html {
+            height: 100%;
+            margin: 0;
+            font-family: Arial, sans-serif;
+        }
+        dot-container {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+}
+
+/* Style for individual dots */
+.dot {
+    width: 30px;
+    height: 30px;
+    background-color: #e1ff21;
+    border-radius: 50%;
+    cursor: wait;
+    transition: background-color 0.3s ease;
+}
+
+.dot:hover {
+    background-color: #2980b9;
+}
+        /* Create a container for Flexbox layout */
+        .container {
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            align-items: flex-start;
+            height: 100%;
+            background: url('https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExcDg5anVlcW90aHJvYmU1dzN5YTRzaHFqemNiZ3VkcGdzZmY3a2xkMyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/2WjnOJMabobfmQ09jw/giphy.gif') no-repeat center center/cover;
+        }
+
+        /* Styling for the blocks of text */
+        .top-left, .top-right, .bottom-right {
+            padding: 10px;
+            color: white;
+            font-size: 16px;
+            background-color: rgba(0, 0, 0, 0.5); /* semi-transparent background */
+            border-radius: 5px;
+        }
+
+        /* Position text blocks */
+        .top-left {
+            position: absolute;
+            top: 10px;
+            left: 10px;
+        }
+
+        .top-right {
+            position: absolute;
+            top: 10px;
+            right: 10px;
+        }
+
+        .bottom-right {
+            position: absolute;
+            bottom: 10px;
+            right: 10px;
+        }
+    
+  
+  </style>
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="top-left">When I am among the trees,<br>
+          especially the willows and the honey locust,<br>
+          equally the beech, the oaks and the pines,<br>
+          they give off such hints of gladness.<br>
+          I would almost say that they save me, and daily.</div>
+        <div class="top-right">I am so distant from the hope of myself,<br>
+          in which I have goodness, and discernment,<br>
+          and never hurry through the world<br>
+          but walk slowly, and bow often.<br>
+          
+          Around me the trees stir in their leaves<br>
+          and call out, “Stay awhile.”<br>
+          The light flows from their branches.</div>
+        <div class="bottom-right">And they call again, “It’s simple,” they say,<br>
+          “and you too have come<br>
+          into the world to do this, to go easy, to be filled<br>
+          with light, and to shine.”
+    
+        </div>
+        <div class="dot-container" id="dotContainer">
+          <a href="writing.html" class="dot"></a>
+
+  
+</body>
+</html>
