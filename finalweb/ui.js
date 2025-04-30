@@ -131,9 +131,9 @@ const content = {
   </p>
 <br> <br> 
   <div class="image-grid">
-    <img src="6.png" alt="Image 1">
-    <img src="7.2.png" alt="Image 2">
-    <img src="10.png" alt="Image 3">
+    <img src="6.png">
+    <img src="7.2.png">
+    <img src="10.png">
   </div>
 
 </body>
