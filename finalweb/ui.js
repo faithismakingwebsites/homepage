@@ -135,7 +135,6 @@ const content = {
     <img src="7.2.png">
     <img src="10.png">
   </div>
-
 </body>
 
 
@@ -236,17 +235,18 @@ const content = {
 </head>
 <body style="margin: 0; padding: 0; font-family: Arial, sans-serif; background-color: #f4f4f4;">
   <div style="display: flex; flex-wrap: wrap; justify-content: center; gap: 10px; padding: 20px;">
-    <div style="flex: 1 1 22%; max-width: 22%;">
-      <img src="1.0.png" alt="Image 1" style="width: 100%; height: auto; border-radius: 8px;">
+    <div style="flex: 1 1 20%; max-width 100%;">
+      <img src="1.0.png" style="width: 100%; height: auto; border-radius: 8px;">
     </div>
-    <div style="flex: 1 1 22%; max-width: 22%;">
-      <img src="2.0.png" alt="Image 2" style="width: 100%; height: auto; border-radius: 8px;">
+    <div style="flex: 1 1 20%; max-width: 100%;">
+      <img src="2.0.png" style="width: 100%; height: auto; border-radius: 8px;">
     </div>
-    <div style="flex: 1 1 22%; max-width: 22%;">
-      <img src="3.0.png" alt="Image 3" style="width: 100%; height: auto; border-radius: 8px;">
+    <div style="flex: 1 1 20%; max-width: 100%;">
+      <img src="3.0.png" style="width: 100%; height: auto; border-radius: 8px;">
     </div>
-    <div style="flex: 1 1 22%; max-width: 22%;">
-      <img src="4.0.png" alt="Image 4" style="width: 100%; height: auto; border-radius: 8px;">
+    <div style="flex: 1 1 20%; max-width: 100%
+  ;">
+      <img src="4.0.png" style="width: 100%; height: auto; border-radius: 8px;">
     </div>
   </div>
  <p> Working to create a Brand new Printing Process. I combined my favorite things, paper embroidery + stamp/ lino printmaking to create this piece/ new process. I, backwards and upside down, hand embroidered letters into paper, which I then put against a stamp pad, then pushed against paper, creating a stamp. 
