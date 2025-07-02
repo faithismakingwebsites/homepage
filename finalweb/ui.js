@@ -5,8 +5,188 @@ const content = {
   `,
 
   resume: `
-    <h1>Resume</h1>
-    <img src="RESUMEFINAL25.jpg" style="width: 100%; height: auto;">
+   <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Faith Spenik - Resume</title>
+    <style>
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        body {
+            background-color: #fdfdfd;
+            color: #333;
+        }
+
+        .container {
+            display: flex;
+            height: 100vh;
+        }
+
+        .sidebar {
+            width: 220px;
+            background-color: #ffffff;
+            padding: 20px;
+            position: fixed;
+            height: 100%;
+        }
+
+        .sidebar ul {
+            list-style-type: none;
+            padding: 0;
+            margin: 0;
+        }
+
+        .sidebar a {
+            color: black;
+            text-decoration: none;
+            font-size: 18px;
+            display: block;
+            margin-bottom: 10px;
+        }
+
+        .main-content {
+            margin-left: 220px;
+            padding: 40px;
+            flex-grow: 1;
+        }
+
+        h1, h2, h3 {
+            color: #222;
+            margin-top: 20px;
+            margin-bottom: 10px;
+        }
+
+        ul {
+            list-style: disc;
+            margin-left: 20px;
+            margin-bottom: 20px;
+        }
+
+        .contact-info {
+            margin-bottom: 30px;
+        }
+
+        p {
+            margin-bottom: 10px;
+        }
+
+        @media (max-width: 900px) {
+            .sidebar {
+                width: calc(50% - 20px);
+            }
+
+            .main-content {
+                margin-left: calc(50% + 20px);
+            }
+        }
+
+        @media (max-width: 600px) {
+            .sidebar {
+                width: 100%;
+                position: relative;
+            }
+
+            .main-content {
+                margin-left: 0;
+            }
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <nav class="sidebar">
+        <ul>
+            <li><a href="#education">Education</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#experience">Experience</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#titles">Titles</a></li>
+        </ul>
+    </nav>
+
+    <div class="main-content">
+        <h1>Faith Spenik</h1>
+        <p class="contact-info">
+            <strong>Email:</strong> <a href="mailto:faithspenik@gmail.com">faithspenik@gmail.com</a><br>
+            <strong>Phone:</strong> 804-822-5706<br>
+            <strong>Portfolio:</strong> <a href="http://adoubleedgedsword.com" target="_blank">adoubleedgedsword.com</a>
+        </p>
+
+        <h2 id="education">Education</h2>
+        <p><strong>Bachelor of Fine Arts in Graphic Design</strong><br>
+        Virginia Commonwealth University, School of the Arts<br>
+        Graduation: May 2025<br>
+        Honors Roll. Student Scholar Scholarship.<br>
+        <strong>Relevant Coursework:</strong> Visual Communication, Prototyping & Wireframing, Design Thinking</p>
+
+        <h2 id="skills">Skills</h2>
+        <h3>Software & Tools</h3>
+        <ul>
+            <li>Adobe Creative Suite (InDesign, Illustrator, Photoshop, After Effects)</li>
+            <li>Microsoft Office (Word, PowerPoint, Excel)</li>
+            <li>Figma</li>
+            <li>WordPress</li>
+            <li>GitHub</li>
+            <li>Visual Studio Code</li>
+            <li>HTML & HTML5</li>
+            <li>CSS Frameworks</li>
+            <li>JavaScript</li>
+        </ul>
+
+        <h3>Design & Craft</h3>
+        <ul>
+            <li>UI Design</li>
+            <li>User Experience Design</li>
+            <li>Interactive Design</li>
+            <li>Bookmaking and Bookbinding</li>
+            <li>Screen Printing</li>
+            <li>Risograph Printing</li>
+            <li>Digital and Film Photography</li>
+        </ul>
+
+        <h2 id="experience">Job Experience</h2>
+        <h3>Freelance Graphic Designer (2022 – Current)</h3>
+        <p>Developed expertise in branding, web design, illustration, and client communication. Managed projects independently and provided creative solutions tailored to diverse client needs.</p>
+
+        <h3>Storefront Operator (2023 – Current)</h3>
+        <p>Gained experience in retail, customer service, POS systems, inventory management, and social media marketing. Specialized in sourcing and selling quality vintage items.</p>
+
+        <h3>Server (2021 – 2023)</h3>
+        <p>Developed strong customer service and communication skills, managed multitasking in a fast-paced environment to ensure an efficient and positive dining experience.</p>
+
+        <h2 id="projects">School Projects</h2>
+        <h3>250 Page Publication</h3>
+        <p>Designed and produced a 250-page book using Adobe InDesign. Managed layout, content organization, and printed and bound the book personally.</p>
+
+        <h3>Handmade Websites</h3>
+        <p>Designed and built websites using HTML, CSS, JavaScript, and GitHub. Focused on UX, aesthetics, and functionality.</p>
+
+        <h3>Video Production</h3>
+        <p>Created a 4-minute video using a digital camera and Adobe Premiere Pro. Captured footage, edited, added captions and effects, and adjusted audio for a polished final piece.</p>
+
+        <h3>Pothole Campaign</h3>
+        <p>Led a community campaign using a website and printed flyers to advocate for pothole repairs and raise local awareness.</p>
+
+        <h3>Thesis Research Project</h3>
+        <p>Produced paintings and photographs exploring women's representation in media. Concluded with a thesis, book, and public exhibition after months of research.</p>
+
+        <h2 id="titles">Professional Titles</h2>
+        <p>Artist. Graphic Designer. UI/UX Designer.</p>
+    </div>
+</div>
+
+</body>
+</html>
+
+
   `,
 
   posters: `
